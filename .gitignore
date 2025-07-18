@@ -1,0 +1,203 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data files (often large and sensitive)
+*.csv
+*.pkl
+*.pickle
+
+# Testing and coverage
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.cache
+nosetests.xml
+pytest.ini
+.testmondata
+
+# Linting and formatting
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.flake8
+.isort.cfg
+.black
+.pre-commit-config.yaml.bak
+
+# Security
+.secrets.baseline
+bandit-report.json
+
+# Documentation
+docs/_build/
+docs/.doctrees/
+site/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Performance and profiling
+*.prof
+*.lprof
+.prof/
+
+# Streamlit specific
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# UV package manager
+uv.lock
+
+# Development tools
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Large files and models
+*.h5
+*.hdf5
+*.model
+*.joblib
+
+# Kaggle API
+kaggle.json
+
+# Ignore specific large data files but keep structure
+data/raw/dataset.csv
+data/processed/feature_matrix.csv
+*.db
+*.sqlite
+*.sqlite3
+*.h5
+*.hdf5
+*.json
+*.parquet
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+*.bak
+*.backup
+*.old
+*.new
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.secret
+config.local.py
+secrets.py
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# UV lock files (optional - some prefer to include these)
+# uv.lock
+
+# Setup and backup files
+backups/
+setup.log
+*.backup
+
+# Development artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE specific files
+.vscode/settings.json
+.vscode/launch.json
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Data download artifacts
+*.zip
+*.tar.gz
+*.7z
+kaggle.json

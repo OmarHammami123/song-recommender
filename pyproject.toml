@@ -1,0 +1,25 @@
+[project]
+name = "song-recommender"
+version = "0.1.0"
+description = "A sophisticated music recommendation system built with Streamlit and machine learning"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "OmarHammami123", email = "omarhammami090@gmail.com"}
+]
+license = {text = "MIT"}
+dependencies = [
+    "black>=25.1.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.1",
+    "pandas>=2.3.1",
+    "plotly>=6.2.0",
+    "pytest>=8.4.1",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+    "spotipy>=2.25.1",
+    "streamlit>=1.46.1",
+]

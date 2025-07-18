@@ -1,0 +1,22 @@
+# Core dependencies
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ML and data processing
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# For visualizations
+plotly>=5.14.0
+
+# For Spotify API integration (stretch goal)
+spotipy>=2.23.0
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Jupyter for data processing
+jupyter>=1.1.0
